@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+/*html,
+body {
+	height: 100%;
+}*/
+
+body {
+	margin: 0;
+	padding: 0;
+/*	display: flex;
+	flex-direction: bottom;*/
+	font-family: "Georgia",Times New Roman,Times,serif;
+	background-image: url(brickwall.png);
+	background-attachment: fixed;
+    background-position: center; 
+	background-repeat: repeat;
+}
+
+header {
+	background-color: #373738;
+	margin-bottom: 15px;
+}
+
+footer {
+	background-color: #373738;
+}
+
+h1 {
+	width: 50px; 
+/*	sorta worked but not really
+*/	margin: 25px;
+	padding: 25px;
+	font-size: 28px;
+	background-color: #cbff57;
+}
+
+#bio-image,
+#main-bio,
+#connect {
+	float: left;
+}
+
+#bio-image {
+	height: 240px;
+	width: 240px;
+	padding-right: 10px;
+}
+
+#main-bio {
+	width: 60%;
+}
+
+#connect {
+	width: 40%;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 20px;
+	color: #eee;
+}
+
+.container {
+/*	flex: 0 auto;
+*/	margin: 0 auto;
+	width: 1024px;
+	line-height: 150%;
+}
+
+.headerlinks {
+	float: right;
+	padding: 15px;
+}
