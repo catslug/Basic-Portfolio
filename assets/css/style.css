@@ -30,6 +30,12 @@ after-header {
 	clear: both;
 }
 
+before-footer {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 h1 {
 	float: left;
 	margin-left: 8%;
@@ -72,7 +78,8 @@ a:visited {
 #bio-image,
 #main-bio,
 #connect,
-#contact-form {
+#contact-form,
+#portfolio {
 	float: left;
 }
 
@@ -106,14 +113,16 @@ a:visited {
 	background: linear-gradient(to bottom right, #cbff57, #deff95);
 }
 
-input {
+/*This is for the contact form
+*/input {
 	width: 100%;
 	padding: 20px 12px;
 	margin: 8px 0;
 	box-sizing: border-box;
 }
 
-textarea {
+/*This is for the contact form
+*/textarea {
 	width: 100%;
 	padding: 20px 12px;
 	margin: 8px 0;
@@ -151,7 +160,7 @@ textarea {
 	color: #eee;
 	padding: 15px;
 	border-top: 3px solid #b1b5be;
-	margin-top: 50px;
+	margin-top: 10%;
 }
 
 .headerlinks {
@@ -170,8 +179,47 @@ textarea {
 }
 
 .portimg {
-	width: 200px;
-	height: 200px;
-	float: left;
-	margin: 10px;
+	width: 240px;
+	height: 240px;
+	position: inline-block;
+	margin: 15px;
+	text-align: center;
+	z-index: 1;
 }
+
+.portbox {
+	float: left;
+}
+
+#portfolio {
+	position: relative;
+}
+
+.porttitle {
+	background-color: #373738;
+	color: #eeeef0;
+	font-weight: 700;
+	font-size: 16px;
+	z-index: 2;
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+}
+
+.portimg1 {
+	top: 240px;
+	width: 240px;
+}
+
+.portimg2 {
+	top: 518px;
+	width: 240px;
+}
+
+/*.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+
