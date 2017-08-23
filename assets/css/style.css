@@ -30,7 +30,7 @@ after-header {
 	clear: both;
 }
 
-before-footer {
+.container:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -43,8 +43,10 @@ h1 {
 	height: 70px;
 	padding: 20px;
 	font-size: 28px;
+	font-weight: 900;
 	text-align: center;
 	background-color: #cbff57;
+	color: #373738;
 }
 
 h2 {
@@ -52,6 +54,8 @@ h2 {
 	color: #373738;
 	border-bottom: 2px solid #373738;
 	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: 900;
 }
 
 h3 {
@@ -59,6 +63,7 @@ h3 {
 	color: #373738;
 	border-bottom: 2px solid #373738;
 	font-size: 24px;
+	font-weight: 900;
 	text-align: left;
 	margin-bottom: 10px;
 }
@@ -124,6 +129,8 @@ a:visited {
 /*This is for the contact form
 */textarea {
 	width: 100%;
+	max-height: 250px;
+	overflow: auto;
 	padding: 20px 12px;
 	margin: 8px 0;
 	box-sizing: border-box;
@@ -157,6 +164,7 @@ a:visited {
 	background-color: #373738;
 	text-align: center;
 	font-size: 12px;
+	font-weight: 900;
 	color: #eee;
 	padding: 15px;
 	border-top: 3px solid #b1b5be;
@@ -168,10 +176,12 @@ a:visited {
 	position: absolute;
 	width: 30%;
 	right: 0;
-	top: 20px;
+	top: 10px;
 	padding: 15px;
 	margin-right: 30px;
 	font-size: 18px;
+	font-weight: 900;
+	vertical-align: middle;
 }
 
 .icon {
@@ -217,9 +227,9 @@ a:visited {
 	width: 240px;
 }
 
-/*.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}*/
+.portimg3 {
+	top: 790px;
+	width: 240px;
+}
+
 
